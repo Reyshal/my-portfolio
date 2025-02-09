@@ -16,6 +16,7 @@ function NavBar() {
   const renderedLinks = socials.map((social) => {
     return (
       <motion.a
+        key={social.link}
         whileHover={{ scale: 1.1 }}
         href={social.link}
         target="_blank"
