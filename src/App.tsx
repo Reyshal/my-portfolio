@@ -7,7 +7,7 @@ import WorkExperienceList from "./components/WorkExperienceList";
 
 function App() {
   return (
-    <div className="flex flex-col max-w-lg mx-auto pt-9">
+    <div className="flex flex-col max-w-lg mx-auto pt-9 px-5">
       <NavBar />
       <Avatar />
       <AboutMe />

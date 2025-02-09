@@ -47,7 +47,7 @@ function WorkExperienceList() {
   const renderedWorkExperiences = workExperiences.map((workExperience) => {
     return (
       <div key={workExperience.title} className="flex gap-5">
-        <p className="text-sm text-gray-400 flex-none pt-1 min-w-[150px]">
+        <p className="hidden sm:block text-sm text-gray-400 flex-none pt-1 min-w-[150px]">
           {workExperience.startDate} - {workExperience.endDate}
         </p>
         <div className="text-gray-500">
@@ -60,6 +60,9 @@ function WorkExperienceList() {
           </a>
           <p className="mb-1 text-sm">
             {workExperience.company} | {workExperience.jobType}
+          </p>
+          <p className="mb-1 text-sm sm:hidden">
+            {workExperience.startDate} - {workExperience.endDate}
           </p>
           <p className="text-sm">{workExperience.description}</p>
         </div>
