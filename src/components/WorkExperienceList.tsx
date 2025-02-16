@@ -3,7 +3,7 @@ import SectionItem from "./SectionItem";
 function WorkExperienceList() {
   const workExperiences = [
     {
-      title: "Stack Engineer",
+      title: "Software Engineer",
       link: "https://www.linkedin.com/company/beautyhaul/",
       jobType: "Full-time",
       company: "Somethinc - Beautyhaul",
