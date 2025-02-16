@@ -30,8 +30,12 @@ function SocialLinks() {
 
   return (
     <motion.div
-      initial={{ opacity: 0, x: -100 }}
-      animate={{ opacity: 1, x: 0, transition: { duration: 1 } }}
+      initial={{
+        opacity: 0,
+        x: window.innerWidth >= 768 ? -100 : 0,
+        y: window.innerWidth >= 768 ? 0 : -100,
+      }}
+      animate={{ opacity: 1, x: 0, y: 0, transition: { duration: 1 } }}
       className="fixed bottom-0 left-0 w-full md:w-[unset] md:top-0 md:h-lvh flex md:flex-col justify-center z-10"
     >
       <nav className="flex py-3 px-4 md:flex-col md:py-5 md:px-3 bg-gray-800 gap-5 rounded-t md:rounded-r">
