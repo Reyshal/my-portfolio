@@ -8,7 +8,7 @@ function SocialLinks() {
       icon: <ImGithub className="w-6 h-6" />,
     },
     {
-      link: "https://www.linkedin.com/in/reyke-syalramadhan-4522a61b6/",
+      link: "https://www.linkedin.com/in/reyshal/",
       icon: <ImLinkedin className="w-6 h-6" />,
     },
   ];

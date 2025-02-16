@@ -3,24 +3,24 @@ import SectionItem from "./SectionItem";
 function WorkExperienceList() {
   const workExperiences = [
     {
-      title: "Full Stack Engineer",
+      title: "Stack Engineer",
       link: "https://www.linkedin.com/company/beautyhaul/",
       jobType: "Full-time",
       company: "Somethinc - Beautyhaul",
       startDate: "Mar 2023",
       endDate: "Present",
       description:
-        "As a Full Stack Engineer, I enhanced and integrated features across high-impact projects, improving functionality and user experience. I resolved bugs and provided proactive maintenance to boost project stability and performance. Additionally, I delivered functional web pages on time, contributing to key project launches.",
+        "Developed and integrated various features, including OTP phone verification, product refunds, employee vouchers, and quizzes, from frontend to backend using CodeIgniter. Managed database migrations with Node.js, optimized slow queries on the admin panel, and performed bug fixes and maintenance. Designed and implemented APIs with Laravel to integrate with mobile apps and seamlessly connected with major marketplaces like Tokopedia and Shopee for order management and stock items synchronization.",
     },
     {
-      title: "Junior Software Engineer",
+      title: "Software Engineer",
       link: "https://www.linkedin.com/company/icubeid/",
       jobType: "Full-time",
       company: "ICUBE",
       startDate: "Sep 2022",
       endDate: "Jan 2023",
       description:
-        "As a Junior Software Engineer, I contributed to multiple projects by adding new features that enhanced functionality and user experience. I improved system reliability through bug fixes and maintenance. I developed a robust Laravel project skeleton for a middleware project, streamlining development and onboarding. Additionally, I created efficient GraphQL queries and mutations, built REST APIs and webhooks for seamless system integration, and authored comprehensive documentation for all developed APIs, ensuring maintainability and smooth handoff to other developers.",
+        "Integrated new features across multiple projects, including stock item management in Laravel, image uploads in a Next.js chat app, and a GraphQL-based middleware for a chat project. Improved system reliability through bug fixes and maintenance on Magento, Laravel, and Next.js projects. Developed efficient GraphQL queries and mutations in Laravel for seamless data retrieval in the chat middleware. Built multiple REST APIs and webhooks to enhance system integration and communication. Created comprehensive API documentation for REST and GraphQL, ensuring maintainability and smooth handoff to engineers and QA teams.",
     },
     {
       title: "Engineer Trainee",
@@ -30,7 +30,7 @@ function WorkExperienceList() {
       startDate: "Mar 2022",
       endDate: "Sep 2022",
       description:
-        "As an Engineer Trainee, I completed training in Magento and ReactJS to enhance my technical skills in preparation for upcoming projects. I contributed to the middleware project by adding new features using Laravel, improving system capabilities and user satisfaction. I also enhanced project stability through bug fixes and maintenance, leading to increased reliability. Additionally, I conducted thorough QA testing for assigned projects, ensuring functionality and quality for a more robust final product.",
+        "Completed Magento and Next.js training to enhance full-stack expertise for an upcoming project. Developed new features, including automated stock synchronization across marketplaces using Laravel and cron jobs. Improved project stability by fixing bugs and maintaining the assigned Laravel middleware project. Conducted thorough QA testing, ensuring functionality and quality for a more robust final product.",
     },
     {
       title: "Mobile App Developer",
@@ -40,7 +40,7 @@ function WorkExperienceList() {
       startDate: "Oct 2021",
       endDate: "Dec 2021",
       description:
-        "As a Part-Time Mobile App Developer, I designed wireframes to outline the app’s structure and user interface, guiding the development process. I expanded the foundational app skeleton to establish a robust architecture, facilitating efficient development. I successfully implemented new features using Android Studio and Flutter, enhancing functionality and user experience. Additionally, I proactively addressed and resolved bugs within the Flutter-based app, ensuring smooth functionality and improving overall performance.",
+        "Designed wireframes in Figma to define the app’s structure and user interface, guiding the development process. Built a foundational app skeleton with a robust architecture using Android Studio and Java, ensuring efficient development. Identified and resolved bugs in a Flutter-based app, improving performance and ensuring smooth functionality.",
     },
   ];
 

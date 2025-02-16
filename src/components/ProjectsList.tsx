@@ -7,28 +7,53 @@ function ProjectsList() {
       link: "https://www.beautyhaul.com/",
       description:
         "E-commerce platform project for many beauty brands in Indonesia.",
-      technologies: ["Laravel", "CodeIgniter", "Golang", "NodeJS"],
+      technologies: [
+        "Laravel",
+        "CodeIgniter",
+        "Golang",
+        "NodeJS",
+        "PHP",
+        "JavaScript",
+        "MySQL",
+        "Git",
+      ],
     },
     {
       title: "Somethinc",
       link: "https://www.somethinc.com/",
       description:
         "E-commerce project for beauty brand that produces skincare products, makeup, and beauty tools.",
-      technologies: ["CodeIgniter", "Golang", "NodeJS"],
+      technologies: [
+        "CodeIgniter",
+        "Golang",
+        "NodeJS",
+        "PHP",
+        "JavaScript",
+        "MySQL",
+        "Git",
+      ],
     },
     {
       title: "Hint Of You",
       link: "https://www.hintofyou.com/",
       description:
         "E-commerce project for high-quality perfumes designed to provide a captivating and enchanting fragrance experience.",
-      technologies: ["CodeIgniter", "Golang", "NodeJS"],
+      technologies: [
+        "CodeIgniter",
+        "Golang",
+        "NodeJS",
+        "PHP",
+        "JavaScript",
+        "MySQL",
+        "Git",
+      ],
     },
     {
       title: "Plush Think Sofa",
       link: "https://www.plush.com.au/",
       description:
         "E-commerce project for sofa brands that are specialise in hand crafted, high quality and incredibly comfortable sofas that last.",
-      technologies: ["NextJS", "Magento", "Laravel"],
+      technologies: ["Magento", "Laravel", "PHP", "JavaScript", "MySQL", "Git"],
     },
   ];
 

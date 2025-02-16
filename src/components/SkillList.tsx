@@ -5,10 +5,15 @@ function SkillList() {
   const skills = [
     "Laravel",
     "CodeIgniter",
-    "Golang",
     "React",
     "NextJS",
     "TailwindCSS",
+    "PHP",
+    "JavaScript",
+    "TypeScript",
+    "NodeJS",
+    "MySQL",
+    "Git",
   ];
 
   const renderedSkills = skills.map((skill) => {
