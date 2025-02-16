@@ -1,7 +1,7 @@
 import { ImGithub, ImLinkedin } from "react-icons/im";
 import { motion } from "framer-motion";
 
-function NavBar() {
+function SocialLinks() {
   const socials = [
     {
       link: "https://github.com/Reyshal",
@@ -32,7 +32,7 @@ function NavBar() {
     <motion.div
       initial={{ opacity: 0, x: -100 }}
       animate={{ opacity: 1, x: 0, transition: { duration: 1 } }}
-      className="fixed top-0 left-0 h-full flex flex-col justify-center z-10"
+      className="fixed top-0 left-0 h-dvh flex flex-col justify-center z-10"
     >
       <nav className="flex flex-col py-5 px-3 bg-gray-800 gap-5 rounded-r">
         {renderedLinks}
@@ -41,4 +41,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default SocialLinks;

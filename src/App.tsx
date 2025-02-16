@@ -1,6 +1,6 @@
 import AboutMe from "./components/AboutMe";
 import Avatar from "./components/Avatar";
-import NavBar from "./components/NavBar";
+import SocialLinks from "./components/SocialLinks";
 import ProjectsList from "./components/ProjectsList";
 import SkillList from "./components/SkillList";
 import WorkExperienceList from "./components/WorkExperienceList";
@@ -8,7 +8,7 @@ import WorkExperienceList from "./components/WorkExperienceList";
 function App() {
   return (
     <div className="flex flex-col max-w-lg mx-auto pt-9 px-5">
-      <NavBar />
+      <SocialLinks />
       <Avatar />
       <AboutMe />
       <SkillList />
