@@ -1,15 +1,21 @@
-import { ImGithub, ImLinkedin } from "react-icons/im";
 import { motion } from "framer-motion";
+import { GrDocumentDownload, GrGithub, GrLinkedin } from "react-icons/gr";
+import resume from "../assets/resume.pdf";
 
 function SocialLinks() {
   const socials = [
     {
       link: "https://github.com/Reyshal",
-      icon: <ImGithub className="w-6 h-6" />,
+      icon: <GrGithub className="w-6 h-6" />,
     },
     {
       link: "https://www.linkedin.com/in/reyshal/",
-      icon: <ImLinkedin className="w-6 h-6" />,
+      icon: <GrLinkedin className="w-6 h-6" />,
+    },
+    {
+      link: resume,
+      icon: <GrDocumentDownload className="w-6 h-6" />,
+      download: true,
     },
   ];
 
@@ -19,8 +25,9 @@ function SocialLinks() {
         key={social.link}
         whileHover={{ scale: 1.1 }}
         href={social.link}
-        target="_blank"
+        target={social.download ? "_blank" : "_self"}
         rel="noopener noreferrer"
+        download={social.download}
         className="text-gray-300 hover:text-indigo-400"
       >
         {social.icon}
