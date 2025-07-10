@@ -8,9 +8,9 @@ function ProjectsList() {
       description:
         "E-commerce platform project for many beauty brands in Indonesia.",
       technologies: [
+        "Golang",
         "Laravel",
         "CodeIgniter",
-        "Golang",
         "NodeJS",
         "PHP",
         "JavaScript",
