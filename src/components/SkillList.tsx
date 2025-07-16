@@ -5,9 +5,11 @@ function SkillList() {
   const skills = [
     "Laravel",
     "CodeIgniter",
+    "Fiber",
     "React",
     "NextJS",
     "TailwindCSS",
+    "Golang",
     "PHP",
     "JavaScript",
     "TypeScript",

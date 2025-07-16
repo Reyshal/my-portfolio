@@ -10,7 +10,7 @@ function WorkExperienceList() {
       startDate: "Mar 2023",
       endDate: "Present",
       description:
-        "Developed and integrated various features, including OTP phone verification, product refunds, employee vouchers, and quizzes, from frontend to backend using CodeIgniter. Managed database migrations with Node.js, optimized slow queries on the admin panel, and performed bug fixes and maintenance. Designed and implemented APIs with Laravel to integrate with mobile apps and seamlessly connected with major marketplaces like Tokopedia and Shopee for order management and stock items synchronization.",
+        "Developed and integrated multiple new features—such as OTP phone number verification, pending order retrieval, product refunds, employee vouchers, quizzes, and more—across frontend and backend using CodeIgniter and Golang. Created and managed database migrations using Node.js, and optimized slow-loading queries on the admin panel to improve performance. Handled bug fixes and ongoing maintenance based on reports from users and QA. Contributed to the design and implementation of RESTful APIs with Laravel to support data integration for mobile apps. Also built marketplace integration APIs with CodeIgniter to synchronize orders and manage stock across platforms like Tokopedia and Shopee.",
     },
     {
       title: "Software Engineer",
